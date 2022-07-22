@@ -1,5 +1,5 @@
 import styles from "../Footer/styles.module.scss"
-import Logo from "../../assets/images/logo.svg"
+import Logo from "../../assets/images/logo.png"
 import { InstagramLogo, MapPin } from "phosphor-react"
 
 export default function Footer() {
