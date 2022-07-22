@@ -1,0 +1,19 @@
+.centralizeLine{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.line{
+  margin: 2rem 0;
+  width: 90vw;
+  height: 1px;
+  background-color: var(--gray-100);
+}
+
+@media (max-width: 767px){
+  .line{
+    max-width: 70vw;
+  }
+}
